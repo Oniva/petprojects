@@ -2,7 +2,7 @@ import discord, re
 client = discord.Client()
 
 
-TOKEN = 'NDc1Nzk1MTYzOTE0OTYwOTA2.Dkq6Iw.Q6WEKvJQxZahi7-BTy7334-uLN4'
+TOKEN = 'your-token'
 url = 'https://us17.campaign-archive.com/?u=b0c288d012c3990e6593e76e1&id=79473da32d&e=eb0d880e49'
 
 resumeRegex = re.compile(r'learn\.joma\.io|joma\'?s (?:resume|cv)', re.IGNORECASE)
