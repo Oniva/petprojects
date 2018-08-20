@@ -9,5 +9,5 @@ with mic as source:
     audio = r.listen(source)
 voiceRecord = r.recognize_google(audio)
 voiceLen = len(voiceRecord)
-print(voiceRecord + ", " + str(voiceLen))
+print(voiceRecord)
 
