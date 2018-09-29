@@ -4,18 +4,18 @@ from email.mime.text import MIMEText
  
 
 
-with open("/Users/david/Desktop/programming/scripts n shit/currentworkers.json") as read_file:
+with open("#") as read_file:
     data = json.load(read_file)
 try:
     while True:
         for worker in data:
             if data[worker]['working'] == "False" and data[worker]['sent'] == "False":
                 data[worker]['sent'] == "True"
-                with open("/Users/david/Desktop/programming/scripts n shit/currentworkers.json", "w") as write_file:
+                with open("#", "w") as write_file:
                     json.dump(data, write_file)
 
-                fromaddr = "cully341@gmail.com"
-                toaddr = "vilolexgfx@gmail.com"
+                fromaddr = "#"
+                toaddr = "#"
                 msg = MIMEMultipart()
                 msg['From'] = fromaddr
                 msg['To'] = toaddr
