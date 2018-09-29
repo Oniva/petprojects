@@ -5,7 +5,7 @@
 import json, os, subprocess
 
 
-dir = "/Users/david/Desktop/programming/scripts n shit/ping.json"
+dir = "#"
 
 with open(dir, "r") as f:
     data = json.load(f)
